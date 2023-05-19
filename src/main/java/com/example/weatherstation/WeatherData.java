@@ -35,4 +35,8 @@ public class WeatherData {
     public void addNew(String city, double temperature) {
         weatherData.add(new Weather(city, temperature));
     }
+
+    public void addNew(Weather mockWeather) {
+        weatherData.add(mockWeather);
+    }
 }
